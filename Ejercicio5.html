@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <style>
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Crear una página de “inicio” bien estructurada que contenga un encabezado, dos secciones, 
+        un pie de página y que cumpla los siguientes ítems: 
+        ● El encabezado deberá contener un logo con un tamaño de 100x100px. 
+        ● Una de las secciones deberá contener una lista desordenada con enlaces de algunos 
+            servicios de google por ejemplo YouTube, Gmail, Drive etc.
+        ● El pie de página deberá contener el formulario de contacto creado previamente. -->
+    <header>
+        <img src="./img/logo.png" alt="logo.png">
+    </header>
+    <section>
+        <ol>
+            <item>
+                <a href="#">YouTube</a>
+                <br>
+            </item>
+            <item>
+                <a href="#">Drive</a>
+                <br>
+            </item>
+            <item>
+                <a href="#">Gmail</a>
+            </item>
+        </ol>
+    </section>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, accusamus aut mollitia quo sed impedit numquam fugit reiciendis veritatis praesentium laborum tenetur alias ipsum tempore, adipisci eveniet corporis, suscipit architecto.</p>
+    </section>
+    <footer>
+        <h1>Formulario de Contacto</h1>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" value="Nombre por defecto" required><br>
+    
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" value="Apellido por defecto" required><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="telefono">Número de teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required><br>
+    
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" cols="30" rows="5" required></textarea><br>
+    
+            <input type="submit" value="Enviar!">
+        </form>
+    </footer>
+</body>
+</html>

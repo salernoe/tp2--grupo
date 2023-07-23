@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <style>
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Agregar en el encabezado de la página inicio dos hipervínculos uno que redirija a la propia 
+        página de inicio y el otro a la página de nosotros. Importante, la página de nosotros se debe 
+        abrir en una ventana nueva. -->
+    <header>
+        <img src="./img/logo.png" alt="logo.png">
+        <br>
+        <a href="ejercicio5.html" target="_blank">Inicio</a>
+        <br>
+        <a href="ejercicio6.html" target="_blank">Nosotros</a>
+    </header>
+    <section>
+        <ol>
+            <item>
+                <a href="#">YouTube</a>
+                <br>
+            </item>
+            <item>
+                <a href="#">Drive</a>
+                <br>
+            </item>
+            <item>
+                <a href="#">Gmail</a>
+            </item>
+        </ol>
+    </section>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, accusamus aut mollitia quo sed impedit numquam fugit reiciendis veritatis praesentium laborum tenetur alias ipsum tempore, adipisci eveniet corporis, suscipit architecto.</p>
+    </section>
+    <footer>
+        <h1>Formulario de Contacto</h1>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" value="Nombre por defecto" required><br>
+    
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" value="Apellido por defecto" required><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="telefono">Número de teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required><br>
+    
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" cols="30" rows="5" required></textarea><br>
+    
+            <input type="submit" value="Enviar!">
+        </form>
+    </footer>
+</body>
+</html>
